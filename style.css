@@ -1,0 +1,67 @@
+body {
+  font-family: "Roboto";
+  background-color: #F8F6F4;
+  color: #006d77;
+  text-align: center;
+  padding: 75px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Roboto";
+  color: #83c5be;
+}
+
+.card {
+  background-color: #E3F4F4;
+  padding: 25px;
+  width: 500px;
+  margin: 25px auto;
+  border-radius: 50px;
+  border: 1px solid #D2E9E9;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: black;
+}
+
+#profile-pic {
+  border-radius: 25%;
+}
+
+#button {
+  font-size: 54px;
+}
+
+@media (max-width: 960px) {
+
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
